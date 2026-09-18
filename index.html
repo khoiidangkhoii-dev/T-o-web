@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về tôi</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #050505, #101827, #001d2b);
+            color: white;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 430px;
+            padding: 35px 25px;
+            text-align: center;
+            border: 1px solid rgba(0, 229, 255, 0.35);
+            border-radius: 25px;
+            background: rgba(10, 15, 25, 0.8);
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 40px rgba(0, 229, 255, 0.15);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            margin: auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #00e5ff;
+            box-shadow: 0 0 25px #00e5ff;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        .name {
+            color: #00e5ff;
+        }
+
+        .description {
+            margin: 12px 0 25px;
+            color: #b8c4cc;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .btn {
+            display: block;
+            padding: 15px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .zalo {
+            background: #0084ff;
+            box-shadow: 0 0 15px rgba(0,132,255,0.35);
+        }
+
+        .tiktok {
+            background: #111;
+            border: 1px solid #444;
+            box-shadow: 0 0 15px rgba(255,255,255,0.08);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px) scale(1.02);
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #66737c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ĐỔI LINK ẢNH Ở ĐÂY -->
+        <div class="avatar">
+            <img src="avatar.jpg" alt="Avatar">
+        </div>
+
+        <h1>Xin chào, mình là <span class="name">Khôi</span> 👋</h1>
+
+        <p class="description">
+            Chào mừng bạn đến với trang cá nhân của mình.
+            Đây là nơi mình chia sẻ những điều mình yêu thích
+            và những dự án mình đang thực hiện.
+        </p>
+
+        <div class="buttons">
+
+            <!-- ĐỔI LINK ZALO Ở ĐÂY -->
+            <a class="btn zalo"
+               href="https://zalo.me/THAY_LINK_ZALO"
+               target="_blank">
+                💬 Zalo
+            </a>
+
+            <!-- ĐỔI LINK TIKTOK Ở ĐÂY -->
+            <a class="btn tiktok"
+               href="https://www.tiktok.com/@THAY_USERNAME_TIKTOK"
+               target="_blank">
+                🎵 TikTok
+            </a>
+
+        </div>
+
+        <div class="footer">
+            © 2026 Khôi • Personal Website
+        </div>
+
+    </div>
+
+</body>
+              </html>
